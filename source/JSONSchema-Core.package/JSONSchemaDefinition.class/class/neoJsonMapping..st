@@ -3,7 +3,7 @@ neoJsonMapping: mapper
 	mapper for: self do: [ :mapping |
 		mapping mapAccessor: #reference to: '$ref'.
 		mapping mapInstVars: #( title ).
-		mapping mapAccessors: #( required description enum ).
+		mapping mapAccessors: #( required description enum pattern ).
 		mapping mapAccessor: #formatString mutator: #formatString: to: #format.
 		(mapping mapAccessor: #properties) valueSchema: #PropertiesDictionary.
 		(mapping mapAccessor: #items) valueSchema: JSONSchemaDefinition.
