@@ -10,7 +10,7 @@ baseline: spec
 				package: 'JSONSchema-Testsuite-Core' with: [ spec requires: #('JSONSchema-Core') ];
 				package: 'JSONSchema-Testsuite-Tests' with: [ spec requires: #('JSONSchema-Core' 'JSONSchema-Testsuite-Core') ];
 
-				baseline: 'NeoJSON' with: [ spec repository: 'github://svenvc/NeoJSON:v17/repository' ].
+				baseline: 'NeoJSON' with: [ spec repository: 'github://svenvc/NeoJSON:master/repository' ].
 
 			spec baseline: 'Mocketry' with: [ spec repository: 'github://dionisiydk/Mocketry:v4.0.9'. ].
 
