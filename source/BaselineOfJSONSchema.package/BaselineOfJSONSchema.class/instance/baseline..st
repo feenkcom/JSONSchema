@@ -12,7 +12,7 @@ baseline: spec
 
 				baseline: 'NeoJSON' with: [ spec repository: 'github://svenvc/NeoJSON:master/repository' ].
 
-			spec baseline: 'Mocketry' with: [ spec repository: 'github://dionisiydk/Mocketry:v4.0.9'. ].
+			spec baseline: 'Mocketry' with: [ spec repository: 'github://dionisiydk/Mocketry:v7.0.2'. ].
 
 			spec
 				group: 'default' with: #('Core' 'Tests');
